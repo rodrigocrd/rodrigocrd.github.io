@@ -132,7 +132,7 @@ country = "Brazil"
       "Improve service reliability and engineering standards across teams",
       "Explore and apply AI agent tooling and LLM-based developer workflows (MCP, Claude Code, OpenCode, and others) to accelerate engineering processes"
   ]
-  technologies = ["Go", "Java", "Kubernetes", "Helm", "Terraform", "AWS", "Kafka", "Datadog", "GitLab CI/CD", "MCP", "Claude Code", "OpenCode", "Hermes", "Pi", "Autoresearch"]
+  technologies = ["Go", "Java", "gRPC", "Kubernetes", "Helm", "Terraform", "AWS", "Kafka", "Datadog", "GitLab CI/CD", "MCP", "Claude Code", "OpenCode", "Hermes", "Pi", "Autoresearch"]
 
 [[params.experience_detail]]
 company = "americanas s.a."
@@ -150,7 +150,7 @@ country = "Rio de Janeiro, Brazil"
       "Authored API contracts, architecture documentation and internal engineering standards",
       "Mentored engineers across multiple seniority levels and actively contributed to technical hiring and architectural reviews"
   ]
-  technologies = ["Go", "Java", "Spring", "Quarkus", "Apache Camel", "Spring Native", "GraalVM", "OpenTelemetry", "New Relic", "Kubernetes", "Helm", "AWS", "Terraform", "GitLab CI/CD", "Gradle"]
+  technologies = ["Go", "Java", "Spring", "Quarkus", "Apache Camel", "Spring Native", "GraalVM", "OpenTelemetry", "New Relic", "Datadog", "Kubernetes", "Helm", "AWS", "Terraform", "GitLab CI/CD", "Gradle"]
 
   [[params.experience_detail.roles]]
   role = "Senior Software Engineer"
