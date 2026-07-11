@@ -66,4 +66,148 @@ description = "Promoted through multiple engineering levels over a 10-year journ
 responsibilities = [
     "Led the architectural redesign of the checkout platform, reducing infrastructure costs by more than 70% while improving performance, scalability and reliability",
     "Designed and maintained high-throughput microservices and distributed systems using Go, Java, Spring, Quarkus and Apache Camel",
- 
+    "Built and evolved multicloud infrastructure and deployment pipelines with Kubernetes, AWS, Terraform and GitLab CI/CD",
+    "Improved engineering productivity by creating shared libraries, internal Gradle plugins and reusable platform components",
+    "Drove observability, incident response and reliability improvements for critical production services",
+    "Authored API contracts, architecture documentation and internal engineering standards",
+    "Mentored engineers across multiple seniority levels and actively contributed to technical hiring and architectural reviews"
+]
+technologies = ["Go", "Java", "Spring", "Quarkus", "Apache Camel", "Kubernetes", "AWS", "Terraform", "GitLab CI/CD", "Gradle"]
+
+[[params.experience]]
+company = "Avanti Prima Engenharia"
+role = "Software Programmer"
+period = "Feb 2013 - Sep 2013 · 8 mos"
+country = "Rio de Janeiro, Brazil"
+description = "Enterprise Java web applications supporting internal operations and client-facing features."
+responsibilities = [
+    "Built user interfaces and business logic using JSF, RichFaces, JPA, and Hibernate",
+    "Integrated applications with relational databases and performed query optimization",
+    "Deployed and maintained systems in a JBoss + Seam server environment",
+    "Collaborated with project teams to deliver solutions aligned with business requirements"
+]
+technologies = ["Java", "JSF", "RichFaces", "JPA", "Hibernate", "JBoss", "Seam"]
+
+[[params.experience]]
+company = "Vertigo Tecnologia"
+role = "Software Developer"
+period = "Apr 2011 - Feb 2013 · 1 yr 11 mos"
+country = "Rio de Janeiro, Brazil"
+description = "Full development lifecycle for mobile and web applications, from implementation through production deployment and monitoring — including a native iPad application built from scratch."
+responsibilities = [
+    "Developed and maintained a native iPad application using Objective-C and SQLite for internal enterprise use",
+    "Built and supported Java EE web applications with iBatis and MySQL, including backend services and admin interfaces",
+    "Took ownership of end-to-end delivery: coding, testing, deploying, and monitoring systems in production",
+    "Improved delivery workflows and collaborated with QA and product teams to ensure application reliability"
+]
+technologies = ["Objective-C", "SQLite", "Java EE", "iBatis", "MySQL"]
+
+[[params.experience]]
+company = "Mestra Informática e Tecnologia"
+role = "Software Developer"
+period = "May 2010 - Apr 2011 · 1 yr"
+country = "Rio de Janeiro, Brazil"
+description = "Private pension administration systems for enterprise clients, starting as an intern and moving into a full developer role."
+responsibilities = [
+    "Developed backend and frontend features using Java 6, Struts, Hibernate, and JSP",
+    "Generated complex financial and operational reports with JasperReports",
+    "Worked with SQL Server and Oracle DB to design and optimize relational data models"
+]
+technologies = ["Java", "Struts", "Hibernate", "JSP", "JasperReports", "SQL Server", "Oracle DB"]
+
+# Grouped-by-company breakdown used only on the /experience/ deep-dive page.
+# Companies with a single role just have one entry in "roles".
+
+[[params.experience_detail]]
+company = "iFood"
+country = "Brazil"
+
+  [[params.experience_detail.roles]]
+  role = "Staff Software Engineer"
+  period = "May 2024 - Present"
+  responsibilities = [
+      "Design and evolve high-scale backend services supporting millions of users",
+      "Drive architectural decisions for mission-critical systems",
+      "Lead initiatives around observability, resilience, and incident mitigation",
+      "Improve service reliability and engineering standards across teams",
+      "Explore and apply AI agent tooling and LLM-based developer workflows (MCP, Claude Code, OpenCode, and others) to accelerate engineering processes"
+  ]
+  technologies = ["Go", "Java", "Kubernetes", "Terraform", "AWS", "Kafka", "Datadog", "MCP", "Claude Code", "OpenCode", "Hermes", "Pi", "Autoresearch"]
+
+[[params.experience_detail]]
+company = "americanas s.a."
+country = "Rio de Janeiro, Brazil"
+
+  [[params.experience_detail.roles]]
+  role = "Staff Software Engineer"
+  period = "Jul 2021 - May 2024 · 2 yrs 11 mos"
+  responsibilities = [
+      "Led the architectural redesign of the checkout platform, reducing infrastructure costs by more than 70% while improving performance, scalability and reliability",
+      "Designed and maintained high-throughput microservices and distributed systems using Go, Java, Spring, Quarkus and Apache Camel",
+      "Built and evolved multicloud infrastructure and deployment pipelines with Kubernetes, AWS, Terraform and GitLab CI/CD",
+      "Improved engineering productivity by creating shared libraries, internal Gradle plugins and reusable platform components",
+      "Drove observability, incident response and reliability improvements for critical production services",
+      "Authored API contracts, architecture documentation and internal engineering standards",
+      "Mentored engineers across multiple seniority levels and actively contributed to technical hiring and architectural reviews"
+  ]
+  technologies = ["Go", "Java", "Spring", "Quarkus", "Apache Camel", "Kubernetes", "AWS", "Terraform", "GitLab CI/CD", "Gradle"]
+
+  [[params.experience_detail.roles]]
+  role = "Senior Software Engineer"
+  period = "Mar 2018 - Jul 2021 · 3 yrs 5 mos"
+  responsibilities = [
+      "Promoted to Senior Software Engineer, taking on greater ownership of service design and architecture decisions",
+      "Built and maintained Java and Golang microservices for the checkout and e-commerce platform"
+  ]
+
+  [[params.experience_detail.roles]]
+  role = "Software Engineer"
+  period = "Oct 2013 - Mar 2018 · 4 yrs 6 mos"
+  responsibilities = [
+      "Joined as Software Engineer, building and maintaining backend services for the e-commerce platform in Java",
+      "Developed foundational experience in distributed systems that shaped later architectural work"
+  ]
+
+[[params.experience_detail]]
+company = "Avanti Prima Engenharia"
+country = "Rio de Janeiro, Brazil"
+
+  [[params.experience_detail.roles]]
+  role = "Software Programmer"
+  period = "Feb 2013 - Sep 2013 · 8 mos"
+  responsibilities = [
+      "Built user interfaces and business logic using JSF, RichFaces, JPA, and Hibernate",
+      "Integrated applications with relational databases and performed query optimization",
+      "Deployed and maintained systems in a JBoss + Seam server environment",
+      "Collaborated with project teams to deliver solutions aligned with business requirements"
+  ]
+  technologies = ["Java", "JSF", "RichFaces", "JPA", "Hibernate", "JBoss", "Seam"]
+
+[[params.experience_detail]]
+company = "Vertigo Tecnologia"
+country = "Rio de Janeiro, Brazil"
+
+  [[params.experience_detail.roles]]
+  role = "Software Developer"
+  period = "Apr 2011 - Feb 2013 · 1 yr 11 mos"
+  responsibilities = [
+      "Developed and maintained a native iPad application using Objective-C and SQLite for internal enterprise use",
+      "Built and supported Java EE web applications with iBatis and MySQL, including backend services and admin interfaces",
+      "Took ownership of end-to-end delivery: coding, testing, deploying, and monitoring systems in production",
+      "Improved delivery workflows and collaborated with QA and product teams to ensure application reliability"
+  ]
+  technologies = ["Objective-C", "SQLite", "Java EE", "iBatis", "MySQL"]
+
+[[params.experience_detail]]
+company = "Mestra Informática e Tecnologia"
+country = "Rio de Janeiro, Brazil"
+
+  [[params.experience_detail.roles]]
+  role = "Software Developer"
+  period = "May 2010 - Apr 2011 · 1 yr"
+  responsibilities = [
+      "Developed backend and frontend features using Java 6, Struts, Hibernate, and JSP",
+      "Generated complex financial and operational reports with JasperReports",
+      "Worked with SQL Server and Oracle DB to design and optimize relational data models"
+  ]
+  technologies = ["Java", "Struts", "Hibernate", "JSP", "JasperReports", "SQL Server", "Oracle DB"]
