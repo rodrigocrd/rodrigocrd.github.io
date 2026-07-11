@@ -130,7 +130,8 @@ country = "Brazil"
       "Drive architectural decisions for mission-critical systems",
       "Lead initiatives around observability, resilience, and incident mitigation",
       "Improve service reliability and engineering standards across teams",
-      "Explore and apply AI agent tooling and LLM-based developer workflows (MCP, Claude Code, OpenCode, and others) to accelerate engineering processes"
+      "Explore and apply AI agent tooling and LLM-based developer workflows (MCP, Claude Code, OpenCode, and others) to accelerate engineering processes",
+      "Participated in on-call rotations, responding to production incidents outside business hours"
   ]
   technologies = ["Go", "Java", "gRPC", "Kubernetes", "Helm", "Terraform", "AWS", "Kafka", "Datadog", "GitLab CI/CD", "MCP", "Claude Code", "OpenCode", "Hermes", "Pi", "Autoresearch"]
 
@@ -148,7 +149,8 @@ country = "Rio de Janeiro, Brazil"
       "Improved engineering productivity by creating shared libraries, internal Gradle plugins and reusable platform components",
       "Drove observability, incident response and reliability improvements for critical production services",
       "Authored API contracts, architecture documentation and internal engineering standards",
-      "Mentored engineers across multiple seniority levels and actively contributed to technical hiring and architectural reviews"
+      "Mentored engineers across multiple seniority levels and actively contributed to technical hiring and architectural reviews",
+      "Participated in on-call rotations, responding to production incidents outside business hours"
   ]
   technologies = ["Go", "Java", "Spring", "Quarkus", "Apache Camel", "Spring Native", "GraalVM", "OpenTelemetry", "New Relic", "Datadog", "Kubernetes", "Helm", "AWS", "Terraform", "GitLab CI/CD", "Gradle"]
 
