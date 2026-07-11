@@ -131,7 +131,8 @@ country = "Brazil"
       "Lead initiatives around observability, resilience, and incident mitigation",
       "Improve service reliability and engineering standards across teams",
       "Explore and apply AI agent tooling and LLM-based developer workflows (MCP, Claude Code, OpenCode, and others) to accelerate engineering processes",
-      "Participated in on-call rotations, responding to production incidents outside business hours"
+      "Participated in on-call rotations, responding to production incidents outside business hours",
+      "Author technical documentation for improvements and new features, and drive technical alignment with cross-functional teams"
   ]
   technologies = ["Go", "Java", "gRPC", "Kubernetes", "Helm", "Terraform", "AWS", "Kafka", "Datadog", "GitLab CI/CD", "MCP", "Claude Code", "OpenCode", "Hermes", "Pi", "Autoresearch"]
 
