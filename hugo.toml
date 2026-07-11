@@ -150,7 +150,7 @@ country = "Rio de Janeiro, Brazil"
       "Authored API contracts, architecture documentation and internal engineering standards",
       "Mentored engineers across multiple seniority levels and actively contributed to technical hiring and architectural reviews"
   ]
-  technologies = ["Go", "Java", "Spring", "Quarkus", "Apache Camel", "Kubernetes", "AWS", "Terraform", "GitLab CI/CD", "Gradle"]
+  technologies = ["Go", "Java", "Spring", "Quarkus", "Apache Camel", "Spring Native", "GraalVM", "OpenTelemetry", "New Relic", "Kubernetes", "AWS", "Terraform", "GitLab CI/CD", "Gradle"]
 
   [[params.experience_detail.roles]]
   role = "Senior Software Engineer"
