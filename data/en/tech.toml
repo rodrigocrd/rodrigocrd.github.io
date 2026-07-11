@@ -1,0 +1,18 @@
+
+  row1 = [
+    { icon = "devicon-go-plain", name = "Go" },
+    { icon = "devicon-java-plain", name = "Java" },
+    { icon = "devicon-kubernetes-plain", name = "Kubernetes" },
+    { icon = "devicon-amazonwebservices-plain-wordmark", name = "AWS" },
+    { icon = "devicon-terraform-plain", name = "Terraform" },
+    { icon = "devicon-mongodb-plain", name = "MongoDB" }
+  ]
+
+  row2 = [
+    { icon = "devicon-redis-plain", name = "Redis" },
+    { icon = "devicon-gradle-plain", name = "Gradle" },
+    { icon = "devicon-gitlab-plain", name = "GitLab CI" },
+    { icon = "devicon-datadog-original", name = "Datadog" },
+    { icon = "devicon-grpc-plain", name = "gRPC" },
+    { icon = "devicon-vscode-plain", name = "Claude Code" }
+  ]

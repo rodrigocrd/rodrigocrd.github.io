@@ -1,0 +1,68 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'My New Hugo Project'
+theme = 'hugo-noir'
+
+[params]
+name = "Rodrigo Dias"
+location = "Rio de Janeiro, Brazil"
+description = "Staff Software Engineer specialized in distributed systems, backend architecture, resilience, observability, and high-scale platforms."
+profile_image = "/images/profile.jpg"
+
+github = "https://github.com/rodrigocrd"
+github_username = "rodrigocrd"
+
+linkedin = "https://www.linkedin.com/in/rodrigocrd"
+linkedin_username = "rodrigocrd"
+
+email = "rodrigocrd@gmail.com"
+
+features = ["dark mode", "multilingual", "tailwind css", "responsive", "contact form", "devicons"]
+
+[menu]
+  [[menu.main]]
+    name = "Experience"
+    url = "/experience/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Certifications"
+    url = "/certifications/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[[params.experience]]
+company = "iFood"
+role = "Staff Software Engineer"
+period = "May 2024 - Present"
+description = "Staff Engineer in one of the most critical domains of Brazil’s largest food delivery platform, focused on backend architecture, resilience, and scalability."
+responsibilities = [
+    "Design and evolve high-scale backend services supporting millions of users",
+    "Drive architectural decisions for mission-critical systems",
+    "Lead initiatives around observability, resilience, and incident mitigation",
+    "Improve service reliability and engineering standards across teams"
+]
+
+[[params.experience]]
+company = "americanas s.a."
+role = "Staff Software Engineer"
+period = "Oct 2013 - May 2024 · 10 yrs 8 mos"
+description = "Promoted through multiple engineering levels over a 10-year journey, culminating in a Staff Software Engineer role leading architecture and platform evolution for large-scale commerce systems."
+responsibilities = [
+    "Led the architectural redesign of the checkout platform, reducing infrastructure costs by more than 70% while improving performance, scalability and reliability",
+    "Designed and maintained high-throughput microservices and distributed systems using Go, Java, Spring, Quarkus and Apache Camel",
+    "Built and evolved multicloud infrastructure and deployment pipelines with Kubernetes, AWS, Terraform and GitLab CI/CD",
+    "Improved engineering productivity by creating shared libraries, internal Gradle plugins and reusable platform components",
+    "Drove observability, incident response and reliability improvements for critical production services",
+    "Authored API contracts, architecture documentation and internal engineering standards",
+    "Mentored engineers across multiple seniority levels and actively contributed to technical hiring and architectural reviews"
+]
