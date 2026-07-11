@@ -405,4 +405,178 @@
 .carousel-item .tech-icon-img {
     height: 2.25rem;
     width: 2.25rem;
-    objec
+    object-fit: contain;
+}
+
+.carousel-item .tech-icon-svg {
+    display: inline-flex;
+    color: currentColor;
+}
+
+.carousel-item .tech-icon-svg svg {
+    height: 2.25rem;
+    width: 2.25rem;
+}
+
+.carousel-item span {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.carousel-container:hover .carousel-track,
+.carousel-container:hover .carousel-track-reverse,
+.carousel-container:hover .carousel-track-left-to-right {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100% / 2));
+    }
+}
+
+@keyframes scroll-left-to-right {
+    0% {
+        transform: translateX(calc(-100% / 2));
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes scroll-reverse {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100% / 2));
+    }
+}
+
+.max-w-3xl {
+    border-color: rgba(75, 85, 99, 0.7); 
+}
+
+.project-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    background: linear-gradient(to bottom right, rgba(30, 41, 59, 0.5), rgba(30, 41, 59, 0.8));
+    backdrop-filter: blur(10px);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+    border-color: rgba(59, 130, 246, 0.5);
+}
+@media (max-width: 767px) {
+    .project-card {
+        margin: 0 1rem; 
+    }
+    .aspect-w-16 {
+        padding-bottom: 75%; 
+    }
+}
+
+@media (min-width: 768px) {
+    .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+        border-color: rgba(59, 130, 246, 0.5);
+    }
+}
+.aspect-w-16 {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.aspect-w-16 > img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    filter: saturate(1.1) contrast(1.1);
+}
+
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.blog-card {
+    transition: all 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateX(4px);
+}
+
+footer {
+    background: linear-gradient(to bottom, transparent, rgba(17, 24, 39, 0.5));
+}
+
+/* Toaster styles */
+.toaster {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--toaster-bg, #333); 
+    color: var(--toaster-text, white);
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, background-color 0.3s ease, color 0.3s ease;
+}
+
+html.dark .toaster {
+    --toaster-bg: #e5e7eb;
+    --toaster-text: #1f2937;
+}
+
+.toaster.show {
+    opacity: 1;
+}
+</style>
+
+<script>
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(function() {
+        showToaster('Discord username copied to clipboard!');
+    }, function(err) {
+        showToaster('Failed to copy username.');
+        console.error('Could not copy text: ', err);
+    });
+}
+
+function showToaster(message) {
+    const toaster = document.createElement('div');
+    toaster.className = 'toaster';
+    toaster.textContent = message;
+    document.body.appendChild(toaster);
+    setTimeout(() => {
+        toaster.classList.add('show');
+    }, 10); 
+    setTimeout(() => {
+        toaster.classList.remove('show');
+        setTimeout(() => {
+            document.body.removeChild(toaster);
+        }, 500); 
+    }, 3000); 
+}
+</script>
+{{ end }} 
