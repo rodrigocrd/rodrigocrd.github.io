@@ -9,8 +9,7 @@
         </div>
     </div>
     <div class="space-y-8">
-        {{ $groupedData := index site.Data .Language.Lang "experience_detail" }}
-        {{ $grouped := cond (and $groupedData $groupedData.experience_detail) $groupedData.experience_detail site.Params.experience_detail }}
+        {{ $grouped := site.Params.experience_detail }}
 
         {{ if $grouped }}
             {{ range $grouped }}

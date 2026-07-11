@@ -4,10 +4,7 @@
 </head>
 <div class="w-full md:w-4/5 lg:w-3/5 mx-auto px-14 py-12">
     <!-- Hero Section -->
-    {{ $authorData := index site.Data .Language.Lang "author" }}
-    {{ $author := cond (and $authorData $authorData.author) $authorData.author site.Params }}
-    
-    {{ with $author }}
+    {{ with site.Params }}
     <section class="mb-16">
         <div class="max-w-3xl ml-0 p-4 pb-2 border border-border-primary-light dark:border-border-primary-dark rounded-lg bg-bg-secondary-light dark:bg-bg-secondary-dark shadow-lg relative">
             <div class="text-left">
@@ -135,10 +132,7 @@
     {{ end }}
 
     <!-- Experience Section -->
-    {{ $experienceData := index site.Data .Language.Lang "experience" }}
-    {{ $experience := cond (and $experienceData $experienceData.experience) $experienceData.experience site.Params.experience }}
-
-    {{ with $experience }}
+    {{ with site.Params.experience }}
     <section>
         <h2 class="text-4xl font-bold mb-5">{{ T "experienceTitle" }}</h2>
         <div class="space-y-4 max-w-3xl mx-auto">
@@ -194,10 +188,7 @@
     {{ end }}
 
     <!-- Voluntary Section -->
-    {{ $voluntaryData := index site.Data .Language.Lang "voluntary" }}
-    {{ $voluntary := cond (and $voluntaryData $voluntaryData.voluntary) $voluntaryData.voluntary site.Params.voluntary }}
-    
-    {{ with $voluntary }}
+    {{ with site.Params.voluntary }}
     <section class="mt-20">
         <h2 class="text-4xl font-bold mb-5">{{ T "voluntaryTitle" }}</h2>
         <div class="space-y-4 max-w-3xl mx-auto">
@@ -216,10 +207,7 @@
     {{ end }}
 
     <!-- Projects Section -->
-    {{ $projectsData := index site.Data .Language.Lang "projects" }}
-    {{ $projects := cond (and $projectsData $projectsData.projects) $projectsData.projects site.Params.projects }}
-
-    {{ with $projects }}
+    {{ with site.Params.projects }}
     <section class="mt-12 md:mt-20 mb-12 md:mb-20">
         <div class="flex justify-between items-center mb-6 md:mb-8">
             <h2 class="text-2xl md:text-4xl font-bold">{{ T "projectsTitle" }}</h2>
@@ -266,10 +254,7 @@
     <!-- Honors & Certifications -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-20 mb-20 max-w-3xl mx-auto">
         <!-- Honors Section -->
-        {{ $honorsData := index site.Data .Language.Lang "honors" }}
-        {{ $honors := cond (and $honorsData $honorsData.honors) $honorsData.honors site.Params.honors }}
-        
-        {{ with $honors }}
+        {{ with site.Params.honors }}
         <section>
             <h2 class="text-3xl font-bold mb-6 flex items-center gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-accent-light dark:text-accent-dark"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
@@ -291,10 +276,7 @@
         {{ end }}
 
         <!-- Certifications Section -->
-        {{ $certificationsData := index site.Data .Language.Lang "certifications" }}
-        {{ $certifications := cond (and $certificationsData $certificationsData.certifications) $certificationsData.certifications site.Params.certifications }}
-        
-        {{ with $certifications }}
+        {{ with site.Params.certifications }}
         <section>
             <h2 class="text-3xl font-bold mb-6 flex items-center gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-accent-light dark:text-accent-dark"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
@@ -323,10 +305,7 @@
     </div>
 
     <!-- Blog Section -->
-    {{ $blogsData := index site.Data .Language.Lang "blogs" }}
-    {{ $blogs := cond (and $blogsData $blogsData.blogs) $blogsData.blogs site.Params.blogs }}
-    
-    {{ with $blogs }}
+    {{ with site.Params.blogs }}
     <section class="mt-20 mb-20">
         <div class="flex justify-between items-center mb-8">
             <h2 class="text-4xl font-bold">{{ T "blogsTitle" }}</h2>
@@ -579,4 +558,4 @@ function showToaster(message) {
     }, 3000); 
 }
 </script>
-{{ end }} 
+{{ end }}
